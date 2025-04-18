@@ -16,7 +16,3 @@ def create_wares_from_list(equipment_folder, output_file, input_json, table_titl
 def create_wares_from_ruleset(equipment_folder, output_file, ruleset, table_title, item_properties):
     table_data = create_table_data_from_ruleset(ruleset, item_properties, equipment_folder)
     create_html_vendor_table(output_file, table_title, item_properties, table_data)
-
-
-if __name__ == "__main__":
-    main()
